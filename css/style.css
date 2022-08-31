@@ -34,7 +34,7 @@ body {
 	background-size: 100% 90px;
 	background-attachment: fixed;
 	z-index: 1;
-	animation: waterfallloop 1s infinite linear; 
+	animation: waterfall-loop 1s infinite linear; 
 }
 
 .bubbles-container {
@@ -212,7 +212,7 @@ body {
 }
 
 
-@keyframes waterfallloop {
+@keyframes waterfall-loop {
 	0% {
 		background-position: 0 0; }
 		100% {
